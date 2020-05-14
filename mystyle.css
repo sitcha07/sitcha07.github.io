@@ -29,7 +29,7 @@ iframe.frame_tile {
   margin: 3px;
 }
 
-div.tile {
+article.tile {
 	width: 32%;
 	margin: 5px;
 	float: left;
@@ -41,4 +41,23 @@ div.div_center {
 
 #main_image {
   width: 50%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: brown;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
 }
